@@ -13,7 +13,7 @@ Usage
 
 returns an array of every column and their types, e.g.:
 
-```json
+```
 'content' => array(10) {
 	'type' => string(4) "text"
 	'length' => NULL
