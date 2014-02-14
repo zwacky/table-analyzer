@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zwacky/table-analyzer.png?branch=master)](https://travis-ci.org/zwacky/table-analyzer)
+
 TableAnalyzer
 =============
 
