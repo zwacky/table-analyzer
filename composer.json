@@ -1,0 +1,28 @@
+{
+    "name": "zwacky/tableanalyzer",
+    "description": "Database column analyzer tool for the developer on the go",
+    "authors": [
+        {
+            "name": "Simon Wicki",
+            "email": "sim.wicki@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.1.*",
+        "orchestra/testbench": "2.1.*",
+        "doctrine/dbal": "~2.3"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/orchestral/phpseclib.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Zwacky\\TableAnalyzer\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
