@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "a4a83bc163e2ecdfc4d2eccd15a6c12f",
+    "hash": "e8be6f382f129e9a1ce4cd34795cd305",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -968,53 +968,6 @@
                 "php"
             ],
             "time": "2013-08-25 17:11:40"
-        },
-        {
-            "name": "orchestra/testbench",
-            "version": "v2.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/orchestral/testbench.git",
-                "reference": "e5feccc5bccf18e32d0a3fb1b2e5915012df57df"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/e5feccc5bccf18e32d0a3fb1b2e5915012df57df",
-                "reference": "e5feccc5bccf18e32d0a3fb1b2e5915012df57df",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "4.1.*",
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Orchestra\\Testbench": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Mior Muhammad Zaki",
-                    "email": "crynobone@gmail.com",
-                    "homepage": "https://github.com/crynobone"
-                }
-            ],
-            "description": "Laravel 4 Package Unit Testing Helper",
-            "homepage": "http://orchestraplatform.com/docs/latest/components/testbench/",
-            "keywords": [
-                "laravel"
-            ],
-            "time": "2014-01-29 03:28:53"
         },
         {
             "name": "patchwork/utf8",
@@ -2059,7 +2012,53 @@
         }
     ],
     "packages-dev": [
-
+        {
+            "name": "orchestra/testbench",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/orchestral/testbench.git",
+                "reference": "e5feccc5bccf18e32d0a3fb1b2e5915012df57df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/e5feccc5bccf18e32d0a3fb1b2e5915012df57df",
+                "reference": "e5feccc5bccf18e32d0a3fb1b2e5915012df57df",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "4.1.*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Orchestra\\Testbench": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mior Muhammad Zaki",
+                    "email": "crynobone@gmail.com",
+                    "homepage": "https://github.com/crynobone"
+                }
+            ],
+            "description": "Laravel 4 Package Unit Testing Helper",
+            "homepage": "http://orchestraplatform.com/docs/latest/components/testbench/",
+            "keywords": [
+                "laravel"
+            ],
+            "time": "2014-01-29 03:28:53"
+        }
     ],
     "aliases": [
 
