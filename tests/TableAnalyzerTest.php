@@ -57,7 +57,6 @@ class TableAnalyzerTest extends \	Orchestra\Testbench\TestCase {
 
 		$analyzer = new TableAnalyzer;
 		$columns = $analyzer->getColumns($tableName);
-		var_dump($columns);
 		$actual = [];
 		foreach ($columns as $columnKey => $column) {
 			$actual[$columnKey] = $column['type'];
