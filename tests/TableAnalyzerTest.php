@@ -2,12 +2,12 @@
 
 use Zwacky\TableAnalyzer\TableAnalyzer;
 
-class TableAnalyzerTest extends \	Orchestra\Testbench\TestCase {
+class TableAnalyzerTest extends \Orchestra\Testbench\TestCase {
 
 	public function setUp()
 	{
 		parent::setUp();
-
+		var_dump(phpversion());
         \Artisan::call('migrate', [
             '--database' => 'tableanalyzer',
             '--path'     => '../tests/migrations',
