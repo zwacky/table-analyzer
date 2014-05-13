@@ -8,10 +8,10 @@ class TableAnalyzerTest extends \Orchestra\Testbench\TestCase {
 	{
 		parent::setUp();
 		var_dump(phpversion());
-        \Artisan::call('migrate', [
+        \Artisan::call('migrate', array(
             '--database' => 'tableanalyzer',
             '--path'     => '../tests/migrations',
-        ]);
+        ));
 	}
 
 	public function tearDown()
@@ -43,7 +43,7 @@ class TableAnalyzerTest extends \Orchestra\Testbench\TestCase {
 	public function testSchemaDetection()
 	{
 		$tableName = 'basic';
-		$expected = [
+		$expected = array(
 			'id' => 'integer',
 			'name' => 'string',
 			'ordering' => 'integer',
@@ -53,11 +53,11 @@ class TableAnalyzerTest extends \Orchestra\Testbench\TestCase {
 			'birthday' => 'date',
 			'created_at' => 'datetime',
 			'updated_at' => 'datetime'
-		];
+		);
 
 		$analyzer = new TableAnalyzer;
 		$columns = $analyzer->getColumns($tableName);
-		$actual = [];
+		$actual = array();
 		foreach ($columns as $columnKey => $column) {
 			$actual[$columnKey] = $column['type'];
 		}
